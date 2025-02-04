@@ -1,0 +1,3 @@
+SELECT
+	COUNT(*)
+FROM KCC.dbo.Orders
