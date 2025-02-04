@@ -1,0 +1,14 @@
+% -> Representa qualquer sequência de caracteres (incluindo nenhuma)
+    exemplo: 'A%' -> começado por 'A'
+
+_ -> Representa um único caractere
+    exemplo: 'J_n' -> qualquer palavra de 3 caracteres começada por 'J' e acabada em 'n'
+
+[ ] -> Especifica um conjunto de caracteres permitidos
+    exemplo: '[CM]arcos' -> só pode corresponder a 'Carcos' e/ou 'Marcos'
+
+[^ ] ou [! ] -> Especifica um conjunto de caracteres proibidos
+    exemplo: '[^AB]na' -> corresponde a tudo que não seja 'Ana' nem 'Bna'
+
+[ - ] -> Define um intervalo de caracteres ordenados
+    exemplo: '[A-C]na' -> corresponde a qualquer um de: ['Ana', 'Bana', 'Cana']
