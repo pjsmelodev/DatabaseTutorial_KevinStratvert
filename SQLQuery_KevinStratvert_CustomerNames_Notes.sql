@@ -1,0 +1,1 @@
+SELECT [CustomerName], [Notes] FROM [dbo].[Customers]

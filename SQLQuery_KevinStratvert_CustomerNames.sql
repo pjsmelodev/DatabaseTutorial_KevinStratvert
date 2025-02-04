@@ -1,0 +1,1 @@
+SELECT [CustomerName] FROM [dbo].[Customers]
