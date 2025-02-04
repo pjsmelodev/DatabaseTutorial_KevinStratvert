@@ -1,0 +1,1 @@
+SELECT * FROM KCC.dbo.Customers WHERE State = 'WA'
